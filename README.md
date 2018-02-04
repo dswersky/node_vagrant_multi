@@ -1,2 +1,2 @@
 # node_todolist
-The NodeJS ToDoList application, without a Vagrantfile
+The NodeJS ToDoList application, ready for a multi-machine Vagrantfile
