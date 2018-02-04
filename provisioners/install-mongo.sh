@@ -8,6 +8,8 @@ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongod
 sudo apt-get update
 #install Mongo
 sudo apt-get install -y mongodb-org
+#copy custom mongo config
+sudo mv mongod.conf /etc/mongod.conf
 #start mongo
 systemctl enable mongod.service
 sudo service mongod start
